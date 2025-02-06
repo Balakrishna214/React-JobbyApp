@@ -26,7 +26,7 @@ class Login extends Component {
     event.preventDefault()
     let {username, password} = this.state
 
-    if (username.toLowerCase().trim(' ') === 'Balakrishna') username = 'rahul'
+    if (username === 'Balakrishna') username = 'rahul'
     if (password === 'MernStackDeveloper') password = 'rahul@2021'
 
     const userDetails = {username, password}
